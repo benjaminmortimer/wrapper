@@ -10,12 +10,14 @@ set :views, "views"
 get '/' do
 	erb :index, 
 	:locals => {
-				:title => "This is a title",
-				:wrapper_name => "Banner",
-				:footer_content => "Footer",
-				:service_name => "Service!",
-				:body => "Body content!"
-				}
+		:title => "Try content with different styles",
+		:wrapper_name => "Configure this text!",
+		:footer_content => "Configure this text!",
+		:service_name => "Configure this text!",
+		:introductory_paragraph => "Configure this text!",
+		:start_button_text => "Configure this text!",
+		:other_ways_to_apply => "Configure this text!"
+		}
 end
 
 get '/:service_name' do
