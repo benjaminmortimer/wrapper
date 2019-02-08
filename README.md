@@ -1,2 +1,2 @@
 # wrapper
-Displaying content from a common API in different style
+Displaying content from a common API in different styles
