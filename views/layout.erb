@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> <%= title %> </title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="/stylesheet.css">
+</head>
+<body>
+
+	<div class="banner">
+		<div class="banner-content-container">
+		<%= wrapper_name %>
+		</div>
+	</div>
+
+	<div class="content-container">
+
+	<%= yield %>
+
+	</div>
+
+	<div class="footer">
+		<div class="footer-content-container">
+		<%= footer_content %>
+		</div>
+	</div>
+
+</body>
+</html>
