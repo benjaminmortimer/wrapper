@@ -64,7 +64,7 @@ def content_for(slug)
 	page = StartPage.new(slug)
 	{
 		:title => page.title,
-		:wrapper_name => configurable["idp_name"],
+		:wrapper_name => configurable["org_name"],
 		:footer_content => configurable["footer_content"],
 		:service_name => page.title,
 		:introductory_paragraph => page.introductory_paragraph,
@@ -74,48 +74,7 @@ def content_for(slug)
 end
 
 def configurable
-	{	"idp_name" => "Some IDP",
+	{	"org_name" => "Some org",
 		"footer_content" => "The footer"
 	}
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
