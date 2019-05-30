@@ -14,7 +14,7 @@ get '/' do
 		:wrapper_name => "An experiment",
 		:footer_content => "An experiment",
 		:service_name => "Live GOV.UK content, but not on GOV.UK",
-		:introductory_paragraph => "<p>This website makes requests to the GOV.UK content API and displays the content that's returned.</p><p>This means it is always up to date with GOV.UK.</p><p>Currently, it can only handle the 'start page' format. Put your favourite start page slug after the root url in the address bar to see the results.</p><p>For example, you could try <a href=\"/register-to-vote\">/register-to-vote</a></p>",
+		:introductory_paragraph => "<p>This website makes requests to the GOV.UK content API and displays the content that’s returned.</p><p>This means it is always up to date with GOV.UK.</p><p>Currently, it can only handle the ‘start page’ format. Put your favourite start page slug after the root url in the address bar to see the results.</p><p>For example, you could try <a href=\"/register-to-vote\">/register-to-vote</a></p>",
 		:start_button_text => "A button",
 		:other_ways_to_apply => "Offline channels and so on."
 		}
