@@ -10,13 +10,13 @@ set :views, "views"
 get '/' do
 	erb :index, 
 	:locals => {
-		:title => "Try content with different styles",
-		:wrapper_name => "Configure this text!",
-		:footer_content => "Configure this text!",
-		:service_name => "Configure this text!",
-		:introductory_paragraph => "Configure this text!",
-		:start_button_text => "Configure this text!",
-		:other_ways_to_apply => "Configure this text!"
+		:title => "Live GOV.UK content, not on GOV.UK",
+		:wrapper_name => "An experiment",
+		:footer_content => "An experiment",
+		:service_name => "Show live GOV.UK content on a different website",
+		:introductory_paragraph => "This website makes requests to the GOV.UK content API and displays the content that's returned. This means it is always up to date with GOV.UK. Currently, it can only handle the 'start page' format. Put your favourite start page slug (eg /register-to-vote) after the root url in the address bar to see the results.",
+		:start_button_text => "A button",
+		:other_ways_to_apply => "Offline channels and so on."
 		}
 end
 
