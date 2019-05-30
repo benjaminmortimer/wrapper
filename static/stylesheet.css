@@ -27,6 +27,20 @@ body {
 	color: white;
 }
 
+.nav-index-link {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-index-link::hover {
+	text-decoration: underline;
+}
+
+.nav-index-link::visited {
+	color: white;
+	text-decoration: none;
+}
+
 .start-button {
   display: inline-block;
   background-color: black;
