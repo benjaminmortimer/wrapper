@@ -32,11 +32,11 @@ body {
 	text-decoration: none;
 }
 
-.nav-index-link::hover {
+.nav-index-link:hover {
 	text-decoration: underline;
 }
 
-.nav-index-link::visited {
+.nav-index-link:visited {
 	color: white;
 	text-decoration: none;
 }
